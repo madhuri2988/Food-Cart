@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding-top: 0;
+}
+
+#payment {
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#personal-info{
+    background-color: #fff;
+    border:1px solid #ccc; 
+    border-radius: 5px; 
+    width:596px;
+    padding: 20px;
+    padding-left: 40px;
+}
+
+.half-line {
+    display: inline-block;
+    width: 257px;
+}
+
+.input-half-line {
+    width: 250px;
+}
+
+.input-full-line {
+    width: 504px;
+}
+
+#payment label {
+    font-family: "Roberto Condensed", Arial, Helvetica, sans-serif;
+}
+
+#payment select {
+    margin-bottom: 15px;
+    width: 255px;
+}
+
+input[type="submit"] {
+    margin-top: 10px;
+    padding: 5px 15px; 
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+input {
+    margin-bottom: 15px;
+}
+
+.payment-content{
+  background-color: #f6f6f6; 
+  padding: 15px;
+  border-radius: 5px;
+   
+}
+
+label > input{ /* HIDE RADIO */
+  display:none;
+}
+
+label > input + img{ 
+  cursor:pointer;
+  border:2px solid transparent;
+}
+
+label > input:checked + img{ 
+  border:2px solid #5fa022;
+  border-radius: 10px;
+}
+
+.radio img {
+  height: 120px;
+}
+
+.confirmation{
+  background-color: #E41937;
+  border-radius: 5px;
+  border: none;
+  color: #fff;
+  font-size: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 12px;
+  display: block;
+  width: 94%;
+  text-decoration: none;
+}
+
+.confirmation:hover{
+  background-color: #cd1631;
+}
+
+.clear{
+    clear:both;
+}
+.delivery-img{
+    position: absolute;
+    height: 300px;
+    width:300px;
+}
+
+/* thank you page */
+.main-content {
+  height: 400px;
+  background-color: #fff;
+}
+
+.thank-info {
+  font-size: 20px;
+  text-align: center;
+  line-height: 50px;
+}
+.thank_msg{
+    font-family: 'Lobster Two', cursive;
+}

@@ -1,0 +1,266 @@
+.basket-content{
+    background-color: #f6f6f6;
+    padding: 40px;
+}
+
+
+.basket-details{
+    background-color: #f6f6f6;
+    box-shadow: 0 1px 5px #d9d9d9;
+    border: 1px solid #d9d9d9;
+    position: relative;
+    margin-left:auto;
+    margin-right:auto;
+    width:65%;
+    font-size: 24px;
+}
+
+.basket-header{
+    padding: 10px;
+    text-transform: uppercase;
+    background-color: #5fa022;
+    color: #fff;
+}
+
+.basket-icon{
+    height: 40px;
+    width: 50px;
+
+    vertical-align: bottom;
+}
+
+.basket-body{
+    border-radius: 5px;
+}
+
+.order-summary{
+    overflow: hidden;
+    clear: both;
+    padding: 6px;
+}
+
+#addFood {
+    text-align: center;
+    width: 20%;
+    background: linear-gradient(#e4685d, #b23d35);
+    display: inline-block;
+    font-weight: bold;
+    padding: 2px 12px;
+    border-radius: 6px;
+    font: 20px 'Tahoma', 'Geneva', sans-serif;
+    -webkit-appearance: none;
+    -webkit-font-smoothing: antialiased;
+    color: #fff;
+    text-decoration: none;
+    float: right;
+    margin-top: 6px;
+}
+
+#addFood:hover {
+  background: #e4685d;
+}
+
+.order-summary h3 {
+    padding: 0 0 5px 0;
+    color: #888;
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: normal;
+    font-size: 20px;
+}
+
+.pageRightColumn {
+    width: 25%;
+
+    float: right;
+  margin-right: 2%;
+
+    background-color: #ab131b;
+
+    color: #fff;
+    padding: 10px;
+}
+.order-summary-table{
+    width: 100%;
+    background-color: #fff;
+    border: 1px solid #d9d9d9;
+    border-collapse: collapse;
+}
+
+.order-summary-table tr {
+    border: 1px solid #d9d9d9;
+}
+
+.order-table-header {
+    background-color: #b8a49f;
+    color: #fff;
+    height: 60px;
+}
+
+.order-summary-table th {
+    font-family:Lucida Sans Unicode;
+    text-transform: uppercase;
+    font-weight: bold;
+    width:80px;
+    border-top: 1px solid #d9d9d9;
+}
+
+.order-summary-table td{
+    padding: 15px;
+}
+
+.order-item-price{
+    text-align: right;
+}
+
+.item-image img{
+    float: left;
+    height: 60px;
+    width: 80px;
+    padding: 2px;
+    border: 1px solid #d9d9d9;
+    border-radius: 5px;
+}
+
+.product-name {
+    width: 60%;
+    float: left;
+    padding-top: 13px;
+    padding-left: 20px;
+    margin: 5px;
+    font-size: 25px;
+}
+
+.qty {
+    text-align: right;
+}
+
+.qty-header {
+    text-align: right;
+}
+
+.quantity_select {
+    width: 50px;
+    border: 1px solid #aaa;
+}
+
+.total-price {
+    font-size: 20px;
+    text-align: right;
+}
+
+.total-price p {
+    margin-bottom: 8px;
+    margin-top: 8px;
+}
+
+.total-price-right {
+    vertical-align: top;
+}
+
+.extras-summary{
+        border: 1px solid #d9d9d9;
+        background-color: #fff;
+        width: 102.5%;
+    padding: 6px;
+}
+.extra-product{
+    text-align: center;
+    color: #e7242e;
+    width: 15%;
+    display: inline-block;
+}
+
+.extra-image img{
+    display: block;
+    border: 1px solid #d9d9d9;
+    padding: 2px;
+    margin-bottom: .5em;
+    border-radius: 5px;
+    overflow: hidden;
+    height:80px;
+    width: 80px;
+    margin-left: 27px;
+
+}
+.radiobtn{
+        text-align: center;
+    color: #e7242e;
+}
+.radiobtn label{
+        display: block;
+}
+
+img.removeVariant{
+    float: right;
+    height: 20px;
+      
+}
+.alert-info{
+    font-size: 20px;
+    color: #013e7f;
+
+    margin-left:80px;
+padding-bottom: 30px;
+}
+.order-price{
+        float: right;
+    background-color: #fff;
+    border: 1px solid #d9d9d9;
+    border-width: 0 1px 0;
+}
+.order-price td{    padding: 10px;
+    border: 1px solid #d9d9d9;
+    border-width: 0 0 1px 0;
+    text-align: right;
+    font-weight: bold;
+}
+
+#coupon {
+    font-size: 15px;
+    text-align: left;
+    margin-top: 80px;
+}
+
+.coupon_input{
+    width: 190px;
+    height:20px;
+    margin: 9px 10px 0 13px;
+}
+
+.coupon_btn{
+    cursor: pointer;
+    background-color: #013e7f;
+    border-radius: 5px;
+    border: none;
+    box-shadow: inset 0 -4px 0 rgba(0,0,0,0.3);
+    color: #fff;
+    font-size:12px;
+    display: inline-block;
+    font-family: 'Gotham Rounded SSm A','Gotham Rounded SSm B',sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    -webkit-appearance: none;
+    padding:2px;
+}
+
+
+#table-check-out {
+    display: block;
+    line-height: 40px;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    height: 40px;
+    background-color: #c72a3b;
+}
+
+#table-check-out:hover {
+    background-color: #b32535;
+}
+.smiley{
+  width: 100px;
+	height: 100px;
+
+}

@@ -1,0 +1,133 @@
+* {
+	margin: 0;
+	padding: 0;
+    box-sizing: border-box;
+}
+
+.ontop {
+    z-index: 999;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    display: none;
+    position: fixed;             
+    background-color: rgba(0, 0, 0, 0.6);
+ }
+
+.btn-close {
+    position: absolute;
+    right: 5px;
+    background: url("img/close.png");
+    background-size: cover;
+    cursor: pointer;
+}
+
+.btn-close img {
+    width: 20px;
+    height: 20px;
+}
+
+#login {
+    display: none;
+ 	width: 400px;
+	height: 230px;
+	position: fixed;
+	right: 30%;
+	top: 20%;
+	background-color: #f2f0f0;
+	border: solid 1px #aaaaaa;
+	border-radius: 10px;
+	padding: 5px;
+ }
+
+.user-info-main {
+	width: 70%;
+	margin: 20px auto;
+	color: #5fa022;  	/* green */
+	font-size: 18px;
+}
+
+.user-info-main .left ul li {
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 22px; 
+	list-style: none;
+}
+
+.user-info-main .right {
+    margin-bottom: 8px;
+}
+
+.user-info-main .right ul li {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -1px; 
+    list-style: none;
+}
+
+.user-info-main form input{
+    width: 200px;
+    height: 25px;
+    border:1px solid #999;
+    border-radius: 5px;
+    padding-left: 5px;
+}
+
+.user-info-main form select{
+    width: 200px;
+    height: 25px;
+    border:1px solid #ccc;
+    font-size: 13px;
+    margin-bottom: 18px;
+}
+
+.user-info-main form input[type="submit"] {
+    width: 150px;
+    height: 30px;
+	margin-top: 10px;
+    padding: 5px 15px; 
+    border:2px solid #5FA022; 
+    border-radius: 5px;
+    font-size: 13px;
+    color: #427017;
+    background-color:#afcf90;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.user-info-main form input[type="submit"]:hover {
+    color: #ffffff;
+    background-color: #5FA022;
+}
+
+.user-info-main p {
+    font-size: 15px;
+}
+
+#signup {
+    display: none;
+    width: 550px;
+    height: 600px;
+    position: fixed;
+    left: 30%;
+    top: 10px;
+    background-color: #f2f0f0;
+    border: solid 1px #aaaaaa;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+
+
+
+
+

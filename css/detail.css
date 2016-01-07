@@ -1,0 +1,288 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.detail-ontop {
+    z-index: 999;
+    width: 150%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    display: none;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+#detail {
+    position: fixed;
+    float: right;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: #000;
+    font-size: 14px;
+    line-height: 20px;
+    width: 330px;
+    height: 100%;
+    background-color: #fafafa;
+    right: -330px;
+    top: 0;
+    padding-top: 30px;
+}
+
+#detail p {
+    margin-bottom: 10px;
+    font-size: 22px;
+}
+
+#detail-top {
+    height: 50px;
+    border-bottom: 1px solid #ddd;
+}
+
+#detail-window h1 {
+    color: black;
+    position: absolute;
+    right: 70px;
+    font-size: 23px;
+}
+
+.detail-close {
+    position: absolute;
+    left: 15px;
+    width: 20px;
+    height: 20px;
+    background: url("../img/close-detail.png");
+    background-size: cover;
+    cursor: pointer;
+}
+
+#detail-window .top {
+    height: 50px;
+}
+
+#detail-bottom {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    padding: 30px;
+    line-height: 20px;
+}
+
+#detail-bottom form label:nth-child(4) {
+    border-top: 1px solid #ccc;
+    color: red;
+}
+
+.detail-part {
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 20px;
+}
+
+#detail input[type="radio"] {
+    margin-left: 20px;
+    font-size: 10px;
+}
+
+#detail input[value="mild"] {
+    background: url();
+}
+
+#detail textarea {
+    border: 1px solid #ddd;
+}
+
+#check-out {
+    height: 50px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    background-color: #8ec918;
+    padding-left: 120px;
+    padding-top: 15px;
+}
+
+#check-out:hover {
+    background-color: #659401;
+}
+
+#check-out a {
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+}
+
+/*Reserve a table*/
+#reserve-content{
+        background-color: #f6f6f6;
+    padding: 15px;
+    border-radius: 5px;
+}
+#reserve{
+
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+        background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+
+    padding: 20px;
+    padding-left: 40px;
+}
+
+#reserve input[type="text"] {
+    width: 120px;
+    height: 20px;
+    margin-left: 5px;
+}
+
+#reserve [name="numOfPeople"] {
+    border: 1px solid #ccc;
+    margin-left: 3px;
+    margin-bottom: 8px;
+}
+
+#reserve [name="time"] {
+    border: 1px solid #ccc;
+    margin-left: 15px;
+    margin-bottom: 8px;
+}
+
+#reserve [name="somedate"] {
+    margin-left: 15px;
+}
+
+#reservetableheading{
+    color: #5fa022;
+    font-weight: bold;
+    padding: 2%;
+    font-size: 30px;
+    text-align: center;
+}
+#reservebutton{
+    text-align: center;
+    background: linear-gradient(#e4685d, #b23d35);
+    display: inline-block;
+    font-weight: bold;
+    padding: 11px;
+    border-radius: 6px;
+    font: 20px 'Tahoma', 'Geneva', sans-serif;
+    -webkit-appearance: none;
+    -webkit-font-smoothing: antialiased;
+    color: #fff;
+    text-decoration: none;
+    float:inherit;
+    margin-top: -10px;
+    margin-left: 15px;
+}
+
+#reservebutton:hover {
+    background: #b23d35;
+}
+
+span.error{
+    color:red;
+}
+.formdata{
+     width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.status_table{
+        text-align: center;
+    font-size: 24px;
+    font-family: fantasy;
+    color: orangered;
+    font-weight: bold;
+   padding:2px;
+}
+.fields{
+    margin: 20px;
+}
+.answer{
+    display:none;
+}
+.FAQ_content{
+    min-height: 800px;
+        background-color: #f6f6f6;
+    padding: 15px;
+    border-radius: 5px;
+}
+.container_faq{    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    padding-left: 40px;
+   text-align: center;
+}
+.faq_title{
+    color:#5fa022;
+        font-family: fantasy;
+    font-weight: bold;
+    padding:2%;
+    font-size: 30px;
+}
+#faqs { position:relative; }
+#faqs h3	{ cursor:pointer;
+padding:1%;}
+#faqs h3.active	{ color:#d74646; }
+#faqs div   { position:relative; }
+#faqs div p	{ padding:0; margin-bottom:15px; }
+
+.about_container{
+  background-color: #f2f0f0;
+  text-align:center;
+  height: 1000px;
+}
+
+.contact-in{
+
+  width:50%;
+
+  margin-left: 25%;
+  background-color: white;
+  position: relative;
+  top:10px;
+  /*padding-top: 10px;*/
+  padding:30px;
+}
+.contactText{
+  line-height: 25px;
+  padding-top: 20px;
+}
+
+.contactHeading{
+  padding-top: 20px;
+}
+
+h1{
+  font-size: 50px;
+  color: #5fa022;
+  font-family:papyrus;
+  font-style: italic;
+}
+
+h5{
+  font-style:italic;
+}
+.about_text{
+  color: #826660;
+  padding-top: 10px;
+
+}
+.aboutUsText{
+line-height: 30px;
+text-align: justify;
+}
+
+.email_link{
+  color: #5fa022;
+  text-decoration: none;
+}
+   #map {
+        width: 580px;
+        height: 400px;
+      }

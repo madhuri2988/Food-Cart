@@ -1,0 +1,46 @@
+.menu-bar{
+      width:200px;
+  margin-left: 20%;
+    height:615px;
+	width:230px;
+	padding-right:20px;
+}
+
+.menu-bar-list li{
+height:32px;
+width:180px;
+text-decoration:none;
+font-size:20px;
+text-align:center;
+list-style-type:none;
+}
+.menu-bar-list{
+margin-top:60px;
+        width: 20%;
+    margin-left: 42px;
+}
+
+.horizontal{
+width:170px;
+padding-left:0px;
+margin-right:20px;
+margin-bottom:20px;
+}
+
+
+
+.menu-bar-list li a{
+text-decoration:none;
+color: #85423f;
+font-family:'Segoe UI', Tahoma, sans-serif;
+
+
+}
+.menu-bar-list li a:hover{
+background-color: #e2827e;
+color:white;
+padding: 6px 14px 7px;
+
+  border-radius: 8px;
+
+}

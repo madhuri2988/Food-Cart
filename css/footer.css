@@ -1,0 +1,107 @@
+footer {
+    font: "Knockout 49 4r","HelveticaNeue-CondensedBold","Arial Narrow",Arial,sans-serif;
+    width: 100%;
+    height: 300px;
+    position: relative;
+    bottom: 0;
+    color: #fff;
+    padding: 10px;
+    background-color: #5fa51e;
+}
+
+#storefront {
+    position: absolute;
+    top: 30px;
+    left: 40px;
+    z-index: 10;
+    opacity: 0.9;
+}
+
+#franchise {
+    display: inline-block;
+    background-color: #7eb34e;
+    padding: 20px;
+    border-radius: 5px;
+    color: #444;
+    font-weight: bold;
+    font-size: 25px;
+    text-decoration: none;
+    position: absolute;
+    left: 180px;
+    top: 60px;
+}
+
+#info {
+    float: right;
+    font-weight: bold;
+}
+
+#social {
+    font-size: 1.5rem;
+    background-color: #7eb34e;
+    padding: 10px;
+    border-radius: 10px;
+    width: 540px;
+    color: #444;
+    margin-top: 20px;
+}
+
+#contact {
+    font-size: 1.5rem;
+    background-color: #7eb34e;
+    padding: 10px;
+    border-radius: 10px;
+    width: 380px;
+    color: #444;
+    margin-top: 10px;
+    float: right;
+}
+
+#social p, #contact p {
+    position: relative;
+    bottom: 11px;
+    display: inline-block;
+}
+
+.icon img {
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+    opacity: 0.8;
+}
+
+#link {
+    width: 95%;
+    margin-left: 20px;
+    margin-right: auto;
+    position: absolute;
+    bottom: 70px;
+    border-top: 2px solid #afcf90;
+    border-bottom: 2px solid #afcf90;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 80px;
+
+}
+
+#link li {
+    display: inline-block;
+    margin-left: 120px;
+}
+
+#link li a {
+    color: #444;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.copyright {
+    position: absolute;
+    bottom: 30px;
+    left: 480px;
+    font-size: 14px;
+    color: #444;
+    margin-left: auto;
+    margin-right: auto;
+}

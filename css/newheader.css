@@ -1,0 +1,30 @@
+
+
+.container_12{
+    
+
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+.grid_12{
+}
+.menu li ul li a{
+	font-size: 18px;
+	font-family: 'Noto Sans', sans-serif;
+	background: #e9afac;
+	color: #916564;
+	text-transform: uppercase;
+	line-height: 20px;
+	position: relative;
+	border-radius: 5px;
+	position: relative;
+	display: block;
+	padding: 6px 0px 7px;
+}
+ul.menu{
+}
+menu>li:hover>a:hover{
+    color: #fff;
+	background: #e2827e;
+    padding: 6px 14px 7px;
+}
