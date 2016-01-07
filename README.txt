@@ -1,15 +1,9 @@
-FOODCART
+FoodCart is online food ordering website developed for Web programming course project
 
-SQL scripts related to project is in DB IMPORT folder 
+Technologies: HTML,CSS, JavaScript, Jquery, PHP, SQL
+
+DB IMPORT contains required sql scripts 
 database name: database
 username:root
 password:root
 The initial file is index.php
-all css and js file related to project are in css and js folder.
-
-
-TEAM-
-Venkata Raman Madhuri Kambalapalli
-Jun Yang
-Sarang Jaltare
-Visharad Topa
